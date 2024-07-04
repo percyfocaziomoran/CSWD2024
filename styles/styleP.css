@@ -3,11 +3,21 @@ body{
     color: #e63946;
 }
 ul{
-    background-color: #457b9d;
     color: #f1faee;
     list-style-type: none;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 1rem;
+}
+
+header a:hover {
+    color: #FAFAFA;
+}
+header a {
+    color: #e63946;
+    text-decoration: none;
+}
+#devs{
+    background-color: #457b9d;
 }

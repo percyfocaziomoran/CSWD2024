@@ -3,7 +3,7 @@ main{
 }
 
 body{
-background-color: #a8dadc;
+    background-color: #a8dadc;
 }
 
 header a {
@@ -15,3 +15,11 @@ header a:hover {
     color: #FAFAFA;
 }
 
+ul{
+    color: #f1faee;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
