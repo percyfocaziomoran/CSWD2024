@@ -1,0 +1,13 @@
+body{
+    background-color: #a8dadc;
+    color: #e63946;
+}
+ul{
+    background-color: #457b9d;
+    color: #f1faee;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
