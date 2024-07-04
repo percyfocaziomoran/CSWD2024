@@ -30,7 +30,7 @@ header a {
     filter: gray;
     -webkit-filter: grayscale(0%);
     filter: none;
-    transition: 1s ease;
+    transition: 0.7s ease;
 }
 #manoelSection{
     display: none;
@@ -47,7 +47,12 @@ header a {
 #percyPhoto{
     border-radius: 18px;
 }
-
+#devs button{
+    padding: 0;
+    border: none;
+    background: none;
+    
+}
 
 
 
