@@ -1,12 +1,12 @@
 function appearTextA(){
     var hiddenText = document.getElementById("alexSection");
-    hiddenText.style.display = "block";
+    hiddenText.innerText = "Let's give this a shot"
 }
 function appearTextP(){
     var hiddenText = document.getElementById("percySection");
-    hiddenText.style.display = "block";
+    hiddenText.innerText = "Let's give this a shot"
 }
 function appearTextM(){
     var hiddenText = document.getElementById("manoelSection");
-    hiddenText.style.display = "block";
+    hiddenText.innerText = "I like to type long text all day long let me translate"
 }

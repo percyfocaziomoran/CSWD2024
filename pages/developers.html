@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meet the Developers</title>
     <link rel="stylesheet" href="../styles/styleP.css">
 </head>
+
 <body>
     <header>
-        <a href="../index.html"><h1>P1P0</h1></a>
+        <a href="../index.html">
+            <h1>P1P0</h1>
+        </a>
         <div id="nav">
             <ul>
                 <li><a href="./locations.html">Where to Play in Ireland</a></li>
@@ -20,39 +24,45 @@
                 <li><a href="./developers.html">Meet the Developers</a></li>
             </ul>
         </div>
-    </header>    
+    </header>
     <main>
         <h2>Meet the Developers</h2>
-        <div id="devs">
-            <ul>
-                <li><button type="text" onclick="appearTextA()"><img src="../images/profilePic.png" id="alexPhoto"></button></li> <!--https://commons.wikimedia.org/wiki/File:Profile_avatar_placeholder_large.png-->
-                <li><button type="text" onclick="appearTextP()"><img src="../images/Percy.png" id="percyPhoto"></button></li>
-                <li><button type="text" onclick="appearTextM()"><img src="../images/manoel-pic.png" ></button></li><!--https://commons.wikimedia.org/wiki/File:Profile_avatar_placeholder_large.png-->
-                <!--All images on this page sourced personally and for personal use by developers-->
-            </ul>
-            <ul>
-                <li>
-                    <div id="alexPart">
-                        <h2>Alex Bruno</h2>
-                        <p id="alexSection">Let's give this a shot</p>
-                    </div>
-                </li>
-                <li>
-                    <div id="percyPart">
-                        <h2>Percy Focazio-Moran</h2>
-                        <p id="percySection">Hehe did this work</p>
-                    </div>
-                </li>
-                <li>
-                    <div id="manoelPart">
-                        <h2>Manoel de Mattos Leal</h2>
-                        <p id="manoelSection">This is a big test and hopefully it works</p>
-                    </div>
-                </li>
-            </ul>
+        <div class="devs">
+            
+            <!--All images on this page sourced personally and for personal use by developers-->
+            <div class="developers" id="alexPart">
+                <button type="text" onclick="appearTextA()"><img src="../images/profilePic.png" id="alexPhoto"></button>
+                <!--https://commons.wikimedia.org/wiki/File:Profile_avatar_placeholder_large.png-->
+                <h2>Alex Bruno</h2>
+            </div>
+
+            <div class="developers" id="percyPart">
+                <button type="text" onclick="appearTextP()"><img src="../images/Percy.png" id="percyPhoto"></button>
+                <h2>Percy Focazio-Moran</h2>
+            </div>
+
+            <div class="developers" id="manoelPart">
+                <button type="text" onclick="appearTextM()"><img src="../images/manoel-pic.png"></button>
+                <h2>Manoel de Mattos Leal</h2>
+            </div>
         </div>
-    </main> 
+        <div class="devs">
+            <div class="textDevs developers">
+                <p id="alexSection">
+                </p>
+            </div>
+            <div class="textDevs developers">
+                <p id="percySection">
+                </p>
+            </div>
+            <div class="textDevs developers">
+                <p id="manoelSection">
+                </p>
+            </div>
+            </div>
+    </main>
     <footer></footer>
     <script src="../script/scriptP.js"></script>
 </body>
+
 </html>

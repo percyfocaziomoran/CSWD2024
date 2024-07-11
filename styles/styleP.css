@@ -2,14 +2,25 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #a8dadc;
     color: #e63946;
+    width: 100%;
+    margin: 0%;
 }
-ul{
-    color: #f1faee;
+header ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+main {
+    width: 100%;
+    margin: 0%;
+}
+.developers {
     list-style-type: none;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem;
 }
 header a:hover {
     color: #FAFAFA;
@@ -18,51 +29,42 @@ header a {
     color: #e63946;
     text-decoration: none;
 }
-#devs{
+.devs{
     background-color: #457b9d;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0%;
+    color: #f1faee;
 }
-#devs img{
+.devs img{
     filter: grayscale(50%);
+    width: 350px;
     -webkit-filter: grayscale(50%);
 }
-#devs img:hover{
+.devs img:hover{
     filter: grayscale(0%);
     filter: gray;
     -webkit-filter: grayscale(0%);
     filter: none;
     transition: 0.7s ease;
 }
-#manoelSection{
-    display: none;
-    float:right;
-}
-#percySection{
-    display:none;
-    float:center;
-}
-#alexSection{
-    display:none;
-    float:left;
-}
 #percyPhoto{
     border-radius: 18px;
 }
-#devs button{
+.devs button{
     padding: 0;
     border: none;
     background: none;
     
 }
-
-
-
-#manoelPart{
-    color:#f1faee;
+.textDevs {
+    width:350px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
 }
-#percyPart{
-    color:#f1faee;
-}
-#alexPart{
-    color:#f1faee;
-    float:left;
-}
+
+/* #logo{
+    
+} */
