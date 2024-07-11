@@ -21,6 +21,7 @@ main {
     justify-content: space-around;
     align-items: center;
     padding: 2rem;
+    padding-bottom: 0rem;
 }
 header a:hover {
     color: #FAFAFA;
@@ -39,7 +40,6 @@ header a {
 }
 .devs img{
     filter: grayscale(50%);
-    width: 350px;
     -webkit-filter: grayscale(50%);
 }
 .devs img:hover{
@@ -49,14 +49,11 @@ header a {
     filter: none;
     transition: 0.7s ease;
 }
-#percyPhoto{
-    border-radius: 18px;
-}
+
 .devs button{
     padding: 0;
     border: none;
     background: none;
-    
 }
 .textDevs {
     width:350px;
@@ -64,6 +61,33 @@ header a {
     justify-content:start;
     align-items: center;
 }
+.desktopPhoto{
+    width: 350px;
+}
+.mobilePhoto{
+    width: 150px;
+}
+
+
+ @media only screen and (min-width: 600px){ 
+    .desktopPhoto{
+      display: block;
+    }
+ 
+    .mobilePhoto{
+      display: none;
+    }
+ }
+
+ @media only screen and (max-width: 600px){ 
+    .desktopPhoto{
+      display: none;
+    }
+ 
+    .mobilePhoto{
+      display: block;
+    }
+ }
 
 /* #logo{
     

@@ -4,7 +4,7 @@ function appearTextA(){
 }
 function appearTextP(){
     var hiddenText = document.getElementById("percySection");
-    hiddenText.innerText = "Let's give this a shot"
+    hiddenText.innerText = "Percy is a full time student at Griffith College studying Computing Science."
 }
 function appearTextM(){
     var hiddenText = document.getElementById("manoelSection");
