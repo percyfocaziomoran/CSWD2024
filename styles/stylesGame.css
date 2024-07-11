@@ -1,5 +1,14 @@
 main{
+    text-align: center;
+}
 
+main a{
+    color: #e63946;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: #FAFAFA;
 }
 
 body{
