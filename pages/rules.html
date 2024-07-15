@@ -1,26 +1,129 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rules of Ping Pong</title>
-    <link rel="stylesheet" href="../styles/styleP.css">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Table Tennis Rules</title>
+    <link rel="stylesheet" href="../styles/stylesRules.css"/>
 </head>
 <body>
     <header>
         <a href="../index.html"><h1>P1P0</h1></a>
-            <div id="nav">
-                <ul>
-                    <li><a href="./locations.html">Where to Play in Ireland</a></li>
-                    <li><a href="./history.html">History of Ping Pong</a></li>
-                    <li><a href="./pingpongGame.html">Play the Game!</a></li>
-                    <li><a href="./rules.html">Gaming Rules</a></li>
-                    <li><a href="./about.html">About the Club</a></li>
-                    <li><a href="./contact.html">Contact Us!</a></li>
-                    <li><a href="./developers.html">Meet the Developers</a></li>
-                </ul>
-            </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="./locations.html">Where to Play in Ireland</a></li>
+                <li><a href="./history.html">History of Ping Pong</a></li>
+                <li><a href="./pingpongGame.html">Play the Game!</a></li>
+                <li><a href="./rules.html">Gaming Rules</a></li>
+                <li><a href="./about.html">About the Club</a></li>
+                <li><a href="./contact.html">Contact Us!</a></li>
+                <li><a href="./developers.html">Meet the Developers</a></li>
+            </ul>
+        </nav>
     </header>
-        <script src="../script/script.js"></script>
+    <main id="main-content">
+        <section id="intro-section">
+            <h2>Table Tennis Rules</h2>
+            <p>Table tennis, also known as ping-pong, is governed by the rules established by the International Table Tennis Federation (ITTF). Here is a summary of the key rules:</p>
+        </section>
+        <section class="rules-section" id="basic-rules">
+            <h3>Basic Rules</h3>
+            <div class="rule-grid">
+                <div class="rule">
+                    <h4>Equipment</h4>
+                    <p>Table: The table is 2.74 meters long, 1.525 meters wide, and 76 cm high.</p>
+                    <p>Net: The net is 15.25 cm high and runs across the middle of the table.</p>
+                    <p>Ball: The ball is 40 mm in diameter and weighs 2.7 grams.</p>
+                    <p>Racket: The racket can be of any size, shape, or weight but must have a flat surface covered with rubber on one or both sides.</p>
+                    <img src="../images/table-racket.png" alt="Table and Racket Image" />
+                </div>
+                <div class="rule">
+                    <h4>Scoring</h4>
+                    <p>A match is usually played as best of any odd number of games (e.g., best of 5, 7).</p>
+                    <p>A game is won by the first player or pair to reach 11 points with at least a 2-point lead.</p>
+                    <p>If both players/teams reach 10 points, play continues until one player/team gains a 2-point lead.</p>
+                </div>
+                <div class="rule">
+                    <h4>Serving</h4>
+                    <p>The ball must be placed on the open palm of the server’s free hand.</p>
+                    <p>The ball must be tossed up at least 16 cm (6 inches) and struck so it first bounces on the server’s side of the table, then bounces over or around the net, and lands on the receiver’s side.</p>
+                    <p>Each player gets two serves in a row, except during deuce (10-10), where players alternate serves after each point.</p>
+                    <img src="../images/serving.png" alt="Serving Image" />
+                </div>
+                <div class="rule">
+                    <h4>Returning</h4>
+                    <p>The ball must be struck so that it bounces once on the opponent’s side of the table.</p>
+                    <p>A point is won if the opponent fails to make a legal return.</p>
+                </div>
+                <div class="rule">
+                    <h4>Let</h4>
+                    <p>A serve is a let if the ball touches the net but still lands in the correct service box. The serve is retaken without penalty.</p>
+                    <p>A let also occurs if the receiver isn’t ready, provided they do not attempt to return the serve.</p>
+                </div>
+                <div class="rule">
+                    <h4>Order of Play in Doubles</h4>
+                    <p>The ball must be served diagonally from the right-hand half of the server's court to the right-hand half of the receiver's court.</p>
+                    <p>Partners must alternate hits. If Player A serves, Player C (from the opposing team) returns, then Player B (partner of Player A) hits next, followed by Player D, and so on.</p>
+                </div>
+            </div>
+        </section>
+        <section class="rules-section" id="match-conduct">
+            <h3>Match Conduct</h3>
+            <div class="rule-grid">
+                <div class="rule">
+                    <h4>Starting a Match</h4>
+                    <p>The choice of who serves first and which side of the table each player starts on is determined by a coin toss or other random method.</p>
+                    <p>Players switch sides after each game and in the final possible game, when one player or team reaches 5 points.</p>
+                </div>
+                <div class="rule">
+                    <h4>Legal Points</h4>
+                    <p>A point is scored by the opponent if a player fails to make a legal serve or return.</p>
+                    <p>A point is also scored if the ball bounces twice on the opponent's side, if the opponent strikes the ball before it bounces on their side, or if the ball touches anything other than the net assembly before landing on the opponent’s side.</p>
+                </div>
+                <div class="rule">
+                    <h4>Obstructions</h4>
+                    <p>A player cannot obstruct the ball, meaning they cannot touch it when it is above or traveling towards the playing surface, and has not yet passed beyond the end line of the table.</p>
+                    <img src="../images/no-hand-on-table.png" alt="No Hand on Table Image" />
+                </div>
+            </div>
+        </section>
+        <section class="rules-section" id="miscellaneous">
+            <h3>Miscellaneous</h3>
+            <div class="rule-grid">
+                <div class="rule">
+                    <h4>Time Limits</h4>
+                    <p>The expedite system is introduced if a game is unfinished after 10 minutes of play unless both players have scored at least 9 points. Under this system, players serve alternately, and if the receiver returns the ball 13 times, the server loses the point.</p>
+                </div>
+                <div class="rule">
+                    <h4>Illegal Actions</h4>
+                    <p>Players cannot use their free hand to touch the table during a point.</p>
+                    <p>Players cannot strike the ball twice in succession.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="horizontal-line"></div>
+        <div class="vertical-line"></div>
+        <div class="footer-section top-left">
+            <img src="../images/bat-1.png" alt="bat-icon" />
+        </div>
+        <div class="footer-section top-right">
+            <p>Contact Us: info@p1p0.ie</p>
+            <p>Phone: +353 1 234 5678</p>
+        </div>
+        <div class="footer-section bottom-left">
+            <p>Address: 123 Ping Pong St, Cork, Ireland</p>
+            <p>Follow Us: 
+                <a href="#">Facebook</a> | 
+                <a href="#">Twitter</a> | 
+                <a href="#">Instagram</a>
+            </p>
+        </div>
+        <div class="footer-section bottom-right">
+            <img src="../images/bat-2.png" alt="bat-icon" />
+        </div>
+    </footer>
+    <script src="../script/script.js"></script>
 </body>
 </html>
