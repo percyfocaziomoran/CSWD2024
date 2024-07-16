@@ -48,6 +48,7 @@ header a {
     -webkit-filter: grayscale(0%);
     filter: none;
     transition: 0.7s ease;
+    transform: scale(1.04);
 }
 
 .devs button{
