@@ -171,7 +171,6 @@ let Game = {
 					this.ball.x = (this.player.x + this.ball.width);
 					this.ball.moveX = DIRECTION.RIGHT;
 
-					beep1.play();
 				}
 			}
 
@@ -181,7 +180,6 @@ let Game = {
 					this.ball.x = (this.paddle.x - this.ball.width);
 					this.ball.moveX = DIRECTION.LEFT;
 
-					beep1.play();
 				}
 			}
 		}
@@ -203,7 +201,6 @@ let Game = {
 				this.ball.speed += 1;
 				this.round += 1;
 
-				beep3.play();
 			}
 		}
 		// Check to see if the paddle/AI has won the round.
@@ -320,7 +317,7 @@ let Game = {
 	},
 
 	listen: function () {
-		document.addEventListener('keydown', function (key) {
+		document.addEventListener('keydown', function (event) {
 			// Handle the 'Press any key to begin' function and start the game.
 			if (Pong.running === false) {
 				Pong.running = true;
@@ -328,14 +325,14 @@ let Game = {
 			}
 
 			// Handle up arrow and w key events
-			if (key.keyCode === 38 || key.keyCode === 87) Pong.player.move = DIRECTION.UP;
+			if (event.key === 'w') Pong.player.move = DIRECTION.UP;
 
 			// Handle down arrow and s key events
-			if (key.keyCode === 40 || key.keyCode === 83) Pong.player.move = DIRECTION.DOWN;
+			if (event.key === 's') Pong.player.move = DIRECTION.DOWN;
 		});
 
 		// Stop the player from moving when there are no keys being pressed.
-		document.addEventListener('keyup', function (key) { Pong.player.move = DIRECTION.IDLE; });
+		document.addEventListener('keyup', function (event) { Pong.player.move = DIRECTION.IDLE; });
 	},
 
 	// Reset the ball location, the player turns and set a delay before the next round begins.
@@ -345,7 +342,6 @@ let Game = {
 		this.timer = (new Date()).getTime();
 
 		victor.score++;
-		beep2.play();
 	},
 
 	// Wait for a delay to have passed after each turn.
