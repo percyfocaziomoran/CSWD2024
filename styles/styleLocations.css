@@ -139,6 +139,32 @@ header a {
     width: 45%;
 }
 
+#footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #footer a:hover {
+    color: #e63946;
+  }
+  
+  #footer .social-section {
+    display: flex;
+    gap:10px;
+    align-items: center;
+    width: 150px; /* Adjust the width as needed */
+    margin-top: 10px;
+  }
+  
+  #footer .social-section a {
+    display: inline-block;
+  }
+  
+  #footer .social-section img {
+    width: 24px; /* Adjust the icon size */
+    height: 24px; /* Adjust the icon size */
+  }
+
 .footer-section img {
     width: 40px;
     height: 40px;

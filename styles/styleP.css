@@ -112,6 +112,66 @@ header a {
     width: 150px;
 }
 
+#contact-info {
+    margin-bottom: 20px;
+}
+
+#contact-form {
+    margin-top: 20px;
+   
+    width:400px;
+}
+
+#contactForm label {
+    display: block;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+#contactForm input, 
+#contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contactForm button {
+    padding: 10px 20px;
+    background-color: #b4bdc7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contactForm button:hover {
+    background-color: #0056b3;
+}
+
+#previewModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+#previewModal h3 {
+    margin-top: 0;
+}
+
+#previewModal p {
+    margin: 10px 0;
+}
+
 /*Footer CSS is from Alex*/
 #footer {
     width: 100%;
@@ -148,6 +208,31 @@ header a {
     width: 45%;
 }
 
+#footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #footer a:hover {
+    color: #e63946;
+  }
+  
+  #footer .social-section {
+    display: flex;
+    gap:10px;
+    align-items: center;
+    width: 150px; /* Adjust the width as needed */
+    margin-top: 10px;
+  }
+  
+  #footer .social-section a {
+    display: inline-block;
+  }
+  
+  #footer .social-section img {
+    width: 24px; /* Adjust the icon size */
+    height: 24px; /* Adjust the icon size */
+  }
 .footer-section img {
     width: 40px;
     height: 40px;
