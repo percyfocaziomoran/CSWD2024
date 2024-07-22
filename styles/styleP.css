@@ -188,6 +188,39 @@ header a {
 #previewModal p {
     margin: 10px 0;
 }
+/* Game Section Card */
+
+#main-game {
+background-color: rgb(254, 254, 254);
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+height: 400px;
+}
+
+#main-game p {
+width: 550px;
+align-self: center;
+
+}
+
+#game-card {
+    background-color: rgb(254, 254, 254);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 20px;
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1faee;
+    border-radius: 8px;
+    padding: 20px;
+}
 
 
 /*Footer CSS is from Alex*/
