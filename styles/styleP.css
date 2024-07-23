@@ -111,6 +111,41 @@ header a {
 .mobilePhoto{
     width: 150px;
 }
+
+/* About Section */
+
+main#about-main-content {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.about-container {
+    max-width: 700px;
+    background: #f1faee;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.about-container h2, .about-container h3 {
+    color: #e63946;
+}
+
+.about-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.about-list li {
+    margin-bottom: 10px;
+}
+
+.about-paragraph {
+    margin-bottom: 20px;
+}
+
 /* Form Section */
 #form-card {
     background-color: rgb(254, 254, 254);
