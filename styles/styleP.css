@@ -462,7 +462,7 @@ header {
     }
  }
 
- @media only screen and (max-width: 600px){ 
+ @media only screen and (max-width: 768px){ 
     .desktopPhoto{
       display: none;
     }
@@ -483,11 +483,3 @@ header {
         padding: 1em;
     }
  }
-
-/* #game {
-    
-} */
-
-/* #logo{
-    
-} */
