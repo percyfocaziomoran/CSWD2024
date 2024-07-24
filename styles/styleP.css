@@ -47,6 +47,22 @@ main {
     width: 100%;
     margin: 0%;
 }
+section img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+}
+
 .developers {
     list-style-type: none;
     display: flex;

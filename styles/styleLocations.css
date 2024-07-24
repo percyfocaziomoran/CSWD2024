@@ -8,6 +8,9 @@ body {
     flex-direction: column;
     align-items: center; */
 }
+h2 {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 
 #nav {
     overflow: hidden;
