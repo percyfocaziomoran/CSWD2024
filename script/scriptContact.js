@@ -26,7 +26,7 @@ function submitForm() {
     // Optionally, you can add code to handle the form data here.
     // For now, just hide the preview modal.
     document.getElementById('previewModal').style.display = 'none';
-
+    
     // Display a message to the user
     alert('Your message has been submitted.');
 }
