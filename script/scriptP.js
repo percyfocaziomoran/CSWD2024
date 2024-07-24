@@ -8,6 +8,6 @@ function appearTextP(){
 }
 function appearTextM(){
     var hiddenText = document.getElementById("manoelSection");
-    hiddenText.innerText = "I like to type long text all day long let me translate"
+    hiddenText.innerText = "-Parts of JavaScript\n-Parts of CSS\n-The Pong Game\n-Structure of 2 webpages\n-Header\n-Navigation Bar/Hamburger menu"
 }
 
