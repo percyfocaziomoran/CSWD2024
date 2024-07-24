@@ -388,21 +388,12 @@ header {
 
 .ping-pong-ball.left {
     left: -50px;
-    animation: floatLeft 3s linear infinite;
+    animation: floatLeft 3.5s linear infinite;
 }
 
 .ping-pong-ball.right {
     right: -50px;
-    animation: floatRight 3s linear infinite;
-}
-
-.ping-pong-ball.up {
-    top: -50px;
-    animation: floatUp 3s linear infinite;
-}
-.ping-pong-ball.down {
-    bottom: -50px;
-    animation: floatDown 3s linear infinite;
+    animation: floatRight 3.5s linear infinite;
 }
 
 @keyframes spin {
@@ -416,49 +407,31 @@ header {
 
 @keyframes floatLeft {
     0% {
-        left: -500px;
+        left: -650px;
+        top: 0px;
     }
     50% {
-        left: -100px;
+        left: -80px;
+        top: 90px;
     }
     100% {
-        left: -500px;
+        left: -650px;
+        top: 5px;
     }
 }
 
 @keyframes floatRight {
     0% {
-        right: -50px;
+        right: -650px;
+        top: 0px;
     }
     50% {
-        right: -10px;
+        right: -80px;
+        top: 90px;
     }
     100% {
-        right: -50px;
-    }
-}
-
-@keyframes floatUp {
-    0% {
-        top: -500px;
-    }
-    50% {
-        top: -100px;
-    }
-    100% {
-        top: -500px;
-    }
-}
-
-@keyframes floatDown {
-    0% {
-        bottom: -50px;
-    }
-    50% {
-        bottom: -10px;
-    }
-    100% {
-        bottom: -50px;
+        right: -650px;
+        top: 5px;
     }
 }
 
