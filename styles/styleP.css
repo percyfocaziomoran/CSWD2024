@@ -359,21 +359,106 @@ align-self: center;
     margin-bottom: 10px;
 }
 
-#logo {
+header {
     text-align: center;
-    margin: 20px 0;
+    padding: 3px 0;
+    position: relative;
 }
-#logo img{
-    max-width: 100%;
+
+#logo {
+    position: relative;
+    display: inline-block;
+}
+
+#logo img {
+    width: 100px;
     height: auto;
     animation: spin 5s linear infinite;
 }
+
+.ping-pong-ball {
+    width: 25px;
+    height: 25px;
+    background-image: url('/images/logo.png');
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ping-pong-ball.left {
+    left: -50px;
+    animation: floatLeft 3s linear infinite;
+}
+
+.ping-pong-ball.right {
+    right: -50px;
+    animation: floatRight 3s linear infinite;
+}
+
+.ping-pong-ball.up {
+    top: -50px;
+    animation: floatUp 3s linear infinite;
+}
+.ping-pong-ball.down {
+    bottom: -50px;
+    animation: floatDown 3s linear infinite;
+}
+
 @keyframes spin {
     from {
         transform: rotate(0deg);
     }
     to {
         transform: rotate(360deg);
+    }
+}
+
+@keyframes floatLeft {
+    0% {
+        left: -500px;
+    }
+    50% {
+        left: -100px;
+    }
+    100% {
+        left: -500px;
+    }
+}
+
+@keyframes floatRight {
+    0% {
+        right: -50px;
+    }
+    50% {
+        right: -10px;
+    }
+    100% {
+        right: -50px;
+    }
+}
+
+@keyframes floatUp {
+    0% {
+        top: -500px;
+    }
+    50% {
+        top: -100px;
+    }
+    100% {
+        top: -500px;
+    }
+}
+
+@keyframes floatDown {
+    0% {
+        bottom: -50px;
+    }
+    50% {
+        bottom: -10px;
+    }
+    100% {
+        bottom: -50px;
     }
 }
 
