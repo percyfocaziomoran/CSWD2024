@@ -10,3 +10,4 @@ function appearTextM(){
     var hiddenText = document.getElementById("manoelSection");
     hiddenText.innerText = "I like to type long text all day long let me translate"
 }
+

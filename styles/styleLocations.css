@@ -19,7 +19,7 @@ body {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px;
+    padding: 10px;
     text-decoration: none;
 }
 
@@ -40,10 +40,7 @@ body {
 header ul {
     display: flex;
     list-style-type: none;
-    justify-content: space-between;
-    /* padding: 0;
-    margin: 0;
-    width: 100%; */
+    justify-content: space-around;
 }
 
 header a:hover {
@@ -144,26 +141,26 @@ header a {
     text-decoration: none;
   }
 
-  #footer a:hover {
+#footer a:hover {
     color: #e63946;
-  }
+}
   
-  #footer .social-section {
+#footer .social-section {
     display: flex;
     gap:10px;
     align-items: center;
     width: 150px; /* Adjust the width as needed */
     margin-top: 10px;
-  }
+}
   
-  #footer .social-section a {
+#footer .social-section a {
     display: inline-block;
-  }
+}
   
-  #footer .social-section img {
+#footer .social-section img {
     width: 24px; /* Adjust the icon size */
     height: 24px; /* Adjust the icon size */
-  }
+}
 
 .footer-section img {
     width: 40px;
@@ -195,6 +192,24 @@ header a {
 .footer-content a {
     text-decoration: none;
     color: #FAFAFA;
+}
+
+#logo {
+    text-align: center;
+    margin: 20px 0;
+}
+#logo img{
+    max-width: 100%;
+    height: auto;
+    animation: spin 5s linear infinite;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 @media (max-width: 768px) {
