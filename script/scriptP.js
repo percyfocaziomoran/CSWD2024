@@ -1,6 +1,6 @@
 function appearTextA(){
     var hiddenText = document.getElementById("alexSection");
-    hiddenText.innerText = "Japanese food, code and rest. Alex's lifestyle."
+    hiddenText.innerText = "-Parts of Contact Form JS\n-Parts of CSS\n-The Locations Page\n-Rules Page\n-About Page\n-Footer Creation"
 }
 function appearTextP(){
     var hiddenText = document.getElementById("percySection");
