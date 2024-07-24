@@ -55,7 +55,8 @@ section img {
     width: 80%;
     justify-content: center;
     align-items: center;
-    border-radius: 8px;
+    border-radius: 10px;
+
 }
 
 h1, h2 {
