@@ -27,6 +27,14 @@ body{
 .content {
     padding: 16px;
 }
+.paragraph a{
+    color: #e63946;
+    text-decoration: none;
+}
+
+.paragraph a:hover{
+    color: #e2949b;
+}
   
 .sticky {
     position: fixed;
