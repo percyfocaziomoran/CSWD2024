@@ -432,7 +432,7 @@ header {
 
 @keyframes floatLeft {
     0% {
-        left: -650px;
+        left: -400px;
         top: 0px;
     }
     50% {
@@ -440,14 +440,14 @@ header {
         top: 90px;
     }
     100% {
-        left: -650px;
+        left: -400px;
         top: 5px;
     }
 }
 
 @keyframes floatRight {
     0% {
-        right: -650px;
+        right: -400px;
         top: 0px;
     }
     50% {
@@ -455,18 +455,26 @@ header {
         top: 90px;
     }
     100% {
-        right: -650px;
+        right: -400px;
         top: 5px;
     }
 }
 
  @media only screen and (min-width: 600px){ 
     .desktopPhoto{
-      display: block;
+        display: block;
     }
  
     .mobilePhoto{
-      display: none;
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: none;
+    }
+
+    .desktop {
+        display: none;
     }
  }
 
@@ -491,3 +499,25 @@ header {
         padding: 1em;
     }
  }
+
+ @media only screen and (min-width: 900px){
+    .ping-pong-ball {
+        width: 25px;
+        height: 25px;
+        background-image: url('/images/logo.png');
+        background-size: cover;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .ping-pong-ball.left {
+        left: -50px;
+        animation: floatLeft 3.5s linear infinite;
+    }
+
+    .ping-pong-ball.right {
+        right: -50px;
+        animation: floatRight 3.5s linear infinite;
+    }
+}
