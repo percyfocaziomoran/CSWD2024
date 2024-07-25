@@ -1,7 +1,7 @@
 //function to make text appear in Developers page for under Alex's photo
 function appearTextA(){
     var hiddenText = document.getElementById("alexSection");
-    hiddenText.innerText = "-Parts of Contact Form JS\n-Parts of CSS\n-The Locations Page\n-Rules Page\n-About Page\n-Footer Creation"
+    hiddenText.innerText = "-Parts of Contact Form JS\n-Parts of CSS\n-The Locations Page\n-Rules Page\n-About Page\n-Footer Creation\n-Documentation"
 }
 //function to make text appear in Developers page for under Percy's photo
 function appearTextP(){
