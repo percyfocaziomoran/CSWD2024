@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata and links to external resources -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/favicon.ico"> <!-- Favicon for the website -->
+    <title>Contact Us</title> <!-- Title of the page -->
+    <link rel="stylesheet" href="../styles/styleP.css"> <!-- Link to external CSS stylesheet -->
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <!-- Left ping-pong ball decoration -->
+            <div class="ping-pong-ball left"></div>
+            <!-- Logo with link to homepage -->
+            <a href="../index.html">
+              <img src="../images/p1p0logo.png" alt="website logo">
+            </a>
+            <!-- Right ping-pong ball decoration -->
+            <div class="ping-pong-ball right"></div>
+        </div>
+        <!-- Navigation menu -->
+        <nav id="nav">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./history.html">Ping Pong?</a></li>
+                <li><a href="./locations.html">Locations</a></li>
+                <li><a href="./rules.html">Rules</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+                <li><a href="./pingpongGame.html">Play the Game!</a></li>
+                <li><a href="./developers.html">Meet the Developers</a></li>
+            </ul>
+        </nav>
+    </header>    
+
+    <main id="main-content">
+        <h2>Contact Us</h2>
+        
+        <!-- Card wrapping contact info and contact form -->
+        <div id="form-card">
+            <!-- Display team contact emails -->
+            <section id="contact-info">
+                <h3>Contact Team Members</h3>
+                <p>Email the team for more information: <a href="mailto:pingpong.griffith@gmail.com">pingpong.griffith@gmail.com</a></p>
+                <p>Email Alex Alves: <a href="mailto:alex.bruno10@hotmail.com">alex.bruno10@hotmail.com</a></p>
+                <p>Email Percy Focazio-Moran: <a href="mailto:percy.focazio-moran@example.com">percy.focaziomoran@example.com</a></p>
+                <p>Email Manoel De Mattos Leal: <a href="mailto:manoel.demattoaleal@example.com">manoel.demattosleal@example.com</a></p>
+            </section>
+
+            <!-- Contact form -->
+            <section id="contact-form">
+                <h3>Send Us a Message</h3>
+                <form id="contactForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="button" onclick="previewMessage()">Preview Message</button>
+                </form>
+
+                <!-- Preview message modal -->
+                <div id="previewModal" style="display: none;">
+                    <h3>Preview Your Message</h3>
+                    <p id="previewName"></p>
+                    <p id="previewEmail"></p>
+                    <p id="previewSubject"></p>
+                    <p id="previewMessage"></p>
+                    <button onclick="closePreview()">Close</button>
+                    <button onclick="submitForm()">Submit</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer section -->
+    <footer id="footer">
+        <!-- Decorative lines in footer -->
+        <div class="horizontal-line"></div>
+        <div class="vertical-line"></div>
+        
+        <!-- Footer top-left section with image -->
+        <div class="footer-section top-left">
+            <img src="../images/bat-1.png" alt="bat-icon">
+            <!-- Image reference: https://www.flaticon.com/free-icons/ping-pong -->
+        </div>
+        
+        <!-- Footer top-right section with text -->
+        <div class="footer-section top-right">
+            <p>Alex Alves - 3147371 | Percy Focazio-Moran - 3147979 | Manoel de Mattos Leal - 3147945 </p>
+        </div>
+        
+        <!-- Footer bottom-left section with contact info and social media links -->
+        <div class="footer-section bottom-left">
+            <a href="contact.html">Contact us</a>
+            <p>Follow us on</p>
+            <div class="social-section">
+                <!-- Social media icons with links -->
+                <!-- All the images of this section references: https://www.flaticon.com/free-icons/social-media?word=social%20media&color=white -->
+                <a href="https://www.instagram.com" target="_blank">
+                    <img class="icon-instagram" src="../images/insta-icon.png" alt="instagram-icon"></a>
+                <a href="https://www.facebook.com" target="_blank">
+                    <img class="icon-facebook" src="../images/facebook-icon.png" alt="facebook-icon"></a>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img class="icon-youtube" src="../images/youtube-icon.png" alt="youtube-icon"></a>
+            </div>
+        </div>
+        
+        <!-- Footer bottom-right section with image -->
+        <div class="footer-section bottom-right">
+            <img src="../images/bat-2.png" alt="bat-icon">
+            <!-- Image reference: https://www.flaticon.com/free-icons/ping-pong -->
+        </div>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="../script/scriptContact.js"></script>
+</body>
+</html>
