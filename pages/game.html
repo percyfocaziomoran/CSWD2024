@@ -1,71 +1,81 @@
 <!DOCTYPE html> 
 <html lang="en"> 
 <head> 
-	<meta charset="UTF-8"> 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-	<link rel="icon" href="../images/favicon.ico">
-    <title>P1ng P0ng</title>
-	<link rel="stylesheet" href="../styles/styleP.css"> 
+    <!-- Metadata and links to external resources -->
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="icon" href="../images/favicon.ico"> 
+    <title>P1ng P0ng</title> 
+    <link rel="stylesheet" href="../styles/styleP.css"> 
 </head> 
 <body> 
-	<header>
-		<div id="logo">
-			<div class="ping-pong-ball left"></div>
-			<a href="../index.html">
-			  <img src="../images/p1p0logo.png" alt="website logo">
-			</a>
-		  <div class="ping-pong-ball right"></div>
-		  </div>
-		<nav id="nav">
-		  <ul>
-			<li><a href="../index.html">Home</a></li>
-			<li><a href="./history.html">Ping Pong?</a></li>
-			<li><a href="./locations.html">Locations</a></li>
-			<li><a href="./rules.html">Rules</a></li>
-			<li><a href="./about.html">About</a></li>
-			<li><a href="./contact.html">Contact Us</a></li>
-			<li><a href="./pingpongGame.html">Play the Game!</a></li>
-			<li><a href="./developers.html">Meet the Developers</a></li>
-		  </ul>
-	  </nav>
-	</header>
-
+    <header>
+        <!-- Logo and navigation menu -->
+        <div id="logo">
+            <!-- Left ping-pong ball decoration -->
+            <div class="ping-pong-ball left"></div>
+            <!-- Logo with link to homepage -->
+            <a href="../index.html">
+                <img src="../images/p1p0logo.png" alt="website logo">
+            </a>
+            <!-- Right ping-pong ball decoration -->
+            <div class="ping-pong-ball right"></div>
+        </div>
+        <!-- Navigation menu -->
+        <nav id="nav">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./history.html">Ping Pong?</a></li>
+                <li><a href="./locations.html">Locations</a></li>
+                <li><a href="./rules.html">Rules</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+                <li><a href="./pingpongGame.html">Play the Game!</a></li>
+                <li><a href="./developers.html">Meet the Developers</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <!-- Card wrapping the game section -->
-	<div id="game-card">
-		<div id="game">
-			<canvas></canvas>
-		</div>
-	</div>
-	
-	<footer id="footer">
-		<div class="horizontal-line"></div>
-		<div class="vertical-line"></div>
-		<div class="footer-section top-left">
-		  <img src="../images/bat-1.png" alt="bat-icon">
-		  <!-- Image reference: https://www.flaticon.com/free-icons/ping-pong -->
-		</div>
-		<div class="footer-section top-right">
-		  <p>Alex Alves - 3147371 | Percy Moran - 3147979 | Manoel Leal - 3147945 </p>
-		</div>
-		<div class="footer-section bottom-left">
-		  <a href="contact.html">Contact us</a>
-		  <p>Follow us on</p>
-		  <div class="social-section">
-			<!-- All the images of this section references: https://www.flaticon.com/free-icons/social-media?word=social%20media&color=white -->
-			<a href="https://www.instagram.com" target="_blank">
-			  <img class="icon-instagram" src="../images/insta-icon.png" alt="instagram-icon"></a>
-			<a href="https://www.facebook.com" target="_blank">
-			  <img class="icon-facebook" src="../images/facebook-icon.png" alt="facebook-icon"></a>
-			<a href="https://www.youtube.com/" target="_blank">
-			  <img class="icon-youtube" src="../images/youtube-icon.png" alt="youtube-icon"></a>
-		  </div>
-		</div>
-		<div class="footer-section bottom-right">
-		  <img src="../images/bat-2.png" alt="bat-icon">
-		  <!-- Image reference: https://www.flaticon.com/free-icons/ping-pong -->
-		</div>
-	</footer>
-	<script src="../script/scriptGame.js"></script> 
+    <div id="game-card">
+        <div id="game">
+            <canvas></canvas> <!-- Canvas for the game -->
+        </div>
+    </div>
+    
+    <!-- Footer styled to look like a ping pong table -->
+    <footer id="footer">
+        <div class="horizontal-line"></div>
+        <div class="vertical-line"></div>
+        <div class="footer-section top-left">
+            <img src="../images/bat-1.png" alt="bat-icon">
+            <!-- Image reference: https://www.flaticon.com/free-icons/ping-pong -->
+        </div>
+        <div class="footer-section top-right">
+            <p>Alex Alves - 3147371 | Percy Moran - 3147979 | Manoel Leal - 3147945</p>
+        </div>
+        <div class="footer-section bottom-left">
+            <a href="contact.html">Contact us</a>
+            <p>Follow us on</p>
+            <div class="social-section">
+                <!-- Social media icons with links -->
+                <!-- All the images of this section references: https://www.flaticon.com/free-icons/social-media?word=social%20media&color=white -->
+                <a href="https://www.instagram.com" target="_blank">
+                    <img class="icon-instagram" src="../images/insta-icon.png" alt="instagram-icon">
+                </a>
+                <a href="https://www.facebook.com" target="_blank">
+                    <img class="icon-facebook" src="../images/facebook-icon.png" alt="facebook-icon">
+                </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img class="icon-youtube" src="../images/youtube-icon.png" alt="youtube-icon">
+                </a>
+            </div>
+        </div>
+        <div class="footer-section bottom-right">
+            <img src="../images/bat-2.png" alt="bat-icon">
+            <!-- Image reference: https://www.flaticon.com/free-icons/ping-pong -->
+        </div>
+    </footer>
+    <script src="../script/scriptGame.js"></script> <!-- Link to external JavaScript file -->
 </body> 
 </html>
